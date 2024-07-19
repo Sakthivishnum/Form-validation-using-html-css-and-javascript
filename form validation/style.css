@@ -1,0 +1,43 @@
+body{
+    background-image:url(background.jpg) ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+form{
+    margin: 100px 500px;
+    backdrop-filter: blur(20px) ;
+}
+.form-group {
+    padding: 50px 50px;
+    background: transparent;
+}
+fieldset{
+    color: white;
+    border-radius: 10px;
+}
+.form-group fieldset{
+    box-shadow: 2px 2px black;
+    margin:10px;
+    border-radius: 10px;
+    color: white;
+}
+.form-group button {
+    margin: 10px 100px;
+    padding:10px 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+}
+.form-group button:hover{
+    background-color:gray;
+    color: red;
+}
+.form-group input {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+}
+.form-group placeholder {
+    color: white;
+}
